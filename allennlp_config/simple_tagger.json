@@ -44,10 +44,10 @@
             "bidirectional": true
     }
   },
-  "iterator": {"type": "basic", "batch_size": 32},
+  "iterator": {"type": "basic", "batch_size": 8},
   "trainer": {
     "optimizer": "adagrad",
-    "num_epochs": 10,
+    "num_epochs": 1,
     "grad_clipping": 2,
     "patience": 10,
     "cuda_device": -1
