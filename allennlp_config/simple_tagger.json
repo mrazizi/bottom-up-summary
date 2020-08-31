@@ -12,8 +12,8 @@
       }
     }
   },
-  "train_data_path": "data/only_phrases/multicopy.train.75k.txt",
-  "validation_data_path": "data/only_phrases/multicopy.val.txt",
+  "train_data_path": "/content/drive/My Drive/SNLP/Final Project/paper2/content-selection dataset/multicopy.000.txt",
+  "validation_data_path": "/content/drive/My Drive/SNLP/Final Project/paper2/val-content-selection dataset/multicopy.000.txt",
   "model": {
     "type": "simple_tagger",
     "text_field_embedder": {
