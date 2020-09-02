@@ -44,7 +44,7 @@
             "bidirectional": true
     }
   },
-  "iterator": {"type": "basic", "batch_size": 8},
+  "data_loader": {"shuffle": true, "batch_size": 8},
   "trainer": {
     "optimizer": "adagrad",
     "num_epochs": 1,
