@@ -19,7 +19,7 @@
     "text_field_embedder": {
             "tokens": {
                     "type": "embedding",
-                    "embedding_dim": 50
+                    "embedding_dim": 10
             },
             "token_characters": {
               "type": "character_encoding",
@@ -29,7 +29,7 @@
               "encoder": {
                 "type": "cnn",
                 "embedding_dim": 8,
-                "num_filters": 50,
+                "num_filters": 10,
                 "ngram_filter_sizes": [5]
               },
               "dropout": 0.2
@@ -37,10 +37,10 @@
     },
     "encoder": {
             "type": "lstm",
-            "input_size": 100,
-            "hidden_size": 100,
-            "num_layers": 2,
-            "dropout": 0.5,
+            "input_size": 20,
+            "hidden_size": 20,
+            "num_layers": 1,
+            "dropout": 0.1,
             "bidirectional": true
     }
   },
@@ -50,6 +50,6 @@
     "num_epochs": 1,
     "grad_clipping": 2,
     "patience": 10,
-    "cuda_device": -1
+    "cuda_device": 0
   }
 }
