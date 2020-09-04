@@ -17,9 +17,11 @@
   "model": {
     "type": "simple_tagger",
     "text_field_embedder": {
+    	"token_embedders": {
             "tokens": {
                     "type": "embedding",
                     "embedding_dim": 5
+            	}
             },
             "token_characters": {
               "type": "character_encoding",
