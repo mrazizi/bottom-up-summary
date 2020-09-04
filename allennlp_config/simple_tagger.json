@@ -22,19 +22,6 @@
                     "type": "embedding",
                     "embedding_dim": 5
             	}
-            },
-            "token_characters": {
-              "type": "character_encoding",
-              "embedding": {
-                "embedding_dim": 4
-              },
-              "encoder": {
-                "type": "cnn",
-                "embedding_dim": 4,
-                "num_filters": 5,
-                "ngram_filter_sizes": [3]
-              },
-              "dropout": 0.1
             }
     },
     "encoder": {
