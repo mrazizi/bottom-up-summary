@@ -20,7 +20,7 @@
     	"token_embedders": {
             "tokens": {
                     "type": "embedding",
-                    "embedding_dim": 5
+                    "embedding_dim": 20
             	}
             }
     },
